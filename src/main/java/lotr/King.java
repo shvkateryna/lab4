@@ -6,6 +6,6 @@ import kick.RandomKick;
 
 public class King extends Character {
     public King() {
-        super(new Random().nextInt(5, 15), new Random().nextInt(5, 15), new RandomKick());
+        super(new Random().nextInt(11) + 5, new Random().nextInt(11) + 5, new RandomKick());
     }
 }
